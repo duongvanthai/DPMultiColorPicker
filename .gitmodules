@@ -1,0 +1,6 @@
+[submodule "Submodules/RSColorPicker"]
+	path = Submodules/RSColorPicker
+	url = git://github.com/kostassite/RSColorPicker.git
+[submodule "Submodules/ColorPopover"]
+	path = Submodules/ColorPopover
+	url = git://github.com/kostassite/ColorPopover.git
