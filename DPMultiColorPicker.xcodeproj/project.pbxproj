@@ -16,6 +16,37 @@
 		2EFB35BC160D2E260063CE78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BB160D2E260063CE78 /* Default.png */; };
 		2EFB35BE160D2E260063CE78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BD160D2E260063CE78 /* Default@2x.png */; };
 		2EFB35C0160D2E260063CE78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BF160D2E260063CE78 /* Default-568h@2x.png */; };
+		2EFB35CD160D34440063CE78 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35C8160D34440063CE78 /* BGRSLoupeLayer.m */; };
+		2EFB35CE160D34440063CE78 /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CA160D34440063CE78 /* RSBrightnessSlider.m */; };
+		2EFB35CF160D34440063CE78 /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CC160D34440063CE78 /* RSColorPickerView.m */; };
+		2EFB35F3160D34680063CE78 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D2160D34680063CE78 /* ColorButton.m */; };
+		2EFB35F4160D34680063CE78 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D4160D34680063CE78 /* ColorViewController.m */; };
+		2EFB35F5160D34680063CE78 /* GzColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D6160D34680063CE78 /* GzColors.m */; };
+		2EFB35F6160D34680063CE78 /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D9160D34680063CE78 /* UIBarButtonItem+WEPopover.m */; };
+		2EFB35F7160D34680063CE78 /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35DB160D34680063CE78 /* WEPopoverContainerView.m */; };
+		2EFB35F8160D34680063CE78 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35DD160D34680063CE78 /* WEPopoverController.m */; };
+		2EFB35F9160D34680063CE78 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35E0160D34680063CE78 /* WETouchableView.m */; };
+		2EFB35FA160D34680063CE78 /* cache2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E2160D34680063CE78 /* cache2.png */; };
+		2EFB35FB160D34680063CE78 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E3160D34680063CE78 /* popoverArrowDown.png */; };
+		2EFB35FC160D34680063CE78 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E4160D34680063CE78 /* popoverArrowDown@2x.png */; };
+		2EFB35FD160D34680063CE78 /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E5160D34680063CE78 /* popoverArrowDownSimple.png */; };
+		2EFB35FE160D34680063CE78 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E6160D34680063CE78 /* popoverArrowLeft.png */; };
+		2EFB35FF160D34680063CE78 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E7160D34680063CE78 /* popoverArrowLeft@2x.png */; };
+		2EFB3600160D34680063CE78 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E8160D34680063CE78 /* popoverArrowLeftSimple.png */; };
+		2EFB3601160D34680063CE78 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35E9160D34680063CE78 /* popoverArrowRight.png */; };
+		2EFB3602160D34680063CE78 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35EA160D34680063CE78 /* popoverArrowRight@2x.png */; };
+		2EFB3603160D34680063CE78 /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35EB160D34680063CE78 /* popoverArrowRightSimple.png */; };
+		2EFB3604160D34680063CE78 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35EC160D34680063CE78 /* popoverArrowUp.png */; };
+		2EFB3605160D34680063CE78 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35ED160D34680063CE78 /* popoverArrowUp@2x.png */; };
+		2EFB3606160D34680063CE78 /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35EE160D34680063CE78 /* popoverArrowUpSimple.png */; };
+		2EFB3607160D34680063CE78 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35EF160D34680063CE78 /* popoverBg.png */; };
+		2EFB3608160D34680063CE78 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35F0160D34680063CE78 /* popoverBg@2x.png */; };
+		2EFB3609160D34680063CE78 /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35F1160D34680063CE78 /* popoverBgSimple.png */; };
+		2EFB360A160D34680063CE78 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35F2160D34680063CE78 /* README */; };
+		2EFB360E160D349F0063CE78 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB360C160D349F0063CE78 /* RootViewController.m */; };
+		2EFB360F160D349F0063CE78 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB360D160D349F0063CE78 /* RootViewController.xib */; };
+		2EFB3613160D350D0063CE78 /* DPMultiColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3611160D350D0063CE78 /* DPMultiColorPickerViewController.m */; };
+		2EFB3614160D350D0063CE78 /* DPMultiColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB3612160D350D0063CE78 /* DPMultiColorPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +63,50 @@
 		2EFB35BB160D2E260063CE78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2EFB35BD160D2E260063CE78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2EFB35BF160D2E260063CE78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2EFB35C7160D34440063CE78 /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGRSLoupeLayer.h; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/BGRSLoupeLayer.h; sourceTree = SOURCE_ROOT; };
+		2EFB35C8160D34440063CE78 /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGRSLoupeLayer.m; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/BGRSLoupeLayer.m; sourceTree = SOURCE_ROOT; };
+		2EFB35C9160D34440063CE78 /* RSBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSBrightnessSlider.h; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/RSBrightnessSlider.h; sourceTree = SOURCE_ROOT; };
+		2EFB35CA160D34440063CE78 /* RSBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSBrightnessSlider.m; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/RSBrightnessSlider.m; sourceTree = SOURCE_ROOT; };
+		2EFB35CB160D34440063CE78 /* RSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorPickerView.h; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/RSColorPickerView.h; sourceTree = SOURCE_ROOT; };
+		2EFB35CC160D34440063CE78 /* RSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerView.m; path = Submodules/RSColorPicker/RSColorPicker/ColorPickerClasses/RSColorPickerView.m; sourceTree = SOURCE_ROOT; };
+		2EFB35D1160D34680063CE78 /* ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorButton.h; path = Submodules/ColorPopover/Colors/ColorPopover/ColorButton.h; sourceTree = SOURCE_ROOT; };
+		2EFB35D2160D34680063CE78 /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorButton.m; path = Submodules/ColorPopover/Colors/ColorPopover/ColorButton.m; sourceTree = SOURCE_ROOT; };
+		2EFB35D3160D34680063CE78 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorViewController.h; path = Submodules/ColorPopover/Colors/ColorPopover/ColorViewController.h; sourceTree = SOURCE_ROOT; };
+		2EFB35D4160D34680063CE78 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorViewController.m; path = Submodules/ColorPopover/Colors/ColorPopover/ColorViewController.m; sourceTree = SOURCE_ROOT; };
+		2EFB35D5160D34680063CE78 /* GzColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GzColors.h; path = Submodules/ColorPopover/Colors/ColorPopover/GzColors.h; sourceTree = SOURCE_ROOT; };
+		2EFB35D6160D34680063CE78 /* GzColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GzColors.m; path = Submodules/ColorPopover/Colors/ColorPopover/GzColors.m; sourceTree = SOURCE_ROOT; };
+		2EFB35D8160D34680063CE78 /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
+		2EFB35D9160D34680063CE78 /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
+		2EFB35DA160D34680063CE78 /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		2EFB35DB160D34680063CE78 /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		2EFB35DC160D34680063CE78 /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		2EFB35DD160D34680063CE78 /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		2EFB35DE160D34680063CE78 /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		2EFB35DF160D34680063CE78 /* WETouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETouchableView.h; sourceTree = "<group>"; };
+		2EFB35E0160D34680063CE78 /* WETouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETouchableView.m; sourceTree = "<group>"; };
+		2EFB35E2160D34680063CE78 /* cache2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cache2.png; sourceTree = "<group>"; };
+		2EFB35E3160D34680063CE78 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		2EFB35E4160D34680063CE78 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		2EFB35E5160D34680063CE78 /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDownSimple.png; sourceTree = "<group>"; };
+		2EFB35E6160D34680063CE78 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		2EFB35E7160D34680063CE78 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		2EFB35E8160D34680063CE78 /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeftSimple.png; sourceTree = "<group>"; };
+		2EFB35E9160D34680063CE78 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		2EFB35EA160D34680063CE78 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		2EFB35EB160D34680063CE78 /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRightSimple.png; sourceTree = "<group>"; };
+		2EFB35EC160D34680063CE78 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		2EFB35ED160D34680063CE78 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		2EFB35EE160D34680063CE78 /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUpSimple.png; sourceTree = "<group>"; };
+		2EFB35EF160D34680063CE78 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		2EFB35F0160D34680063CE78 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		2EFB35F1160D34680063CE78 /* popoverBgSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBgSimple.png; sourceTree = "<group>"; };
+		2EFB35F2160D34680063CE78 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2EFB360B160D349F0063CE78 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2EFB360C160D349F0063CE78 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2EFB360D160D349F0063CE78 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		2EFB3610160D350D0063CE78 /* DPMultiColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMultiColorPickerViewController.h; sourceTree = "<group>"; };
+		2EFB3611160D350D0063CE78 /* DPMultiColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMultiColorPickerViewController.m; sourceTree = "<group>"; };
+		2EFB3612160D350D0063CE78 /* DPMultiColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPMultiColorPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +155,14 @@
 			children = (
 				2EFB35B8160D2E260063CE78 /* AppDelegate.h */,
 				2EFB35B9160D2E260063CE78 /* AppDelegate.m */,
+				2EFB360B160D349F0063CE78 /* RootViewController.h */,
+				2EFB360C160D349F0063CE78 /* RootViewController.m */,
+				2EFB360D160D349F0063CE78 /* RootViewController.xib */,
+				2EFB3610160D350D0063CE78 /* DPMultiColorPickerViewController.h */,
+				2EFB3611160D350D0063CE78 /* DPMultiColorPickerViewController.m */,
+				2EFB3612160D350D0063CE78 /* DPMultiColorPickerViewController.xib */,
+				2EFB35D0160D344A0063CE78 /* ColorPopover */,
+				2EFB35C6160D34140063CE78 /* RSColorPicker */,
 				2EFB35B0160D2E260063CE78 /* Supporting Files */,
 			);
 			path = DPMultiColorPicker;
@@ -98,6 +181,76 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		2EFB35C6160D34140063CE78 /* RSColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB35C7160D34440063CE78 /* BGRSLoupeLayer.h */,
+				2EFB35C8160D34440063CE78 /* BGRSLoupeLayer.m */,
+				2EFB35C9160D34440063CE78 /* RSBrightnessSlider.h */,
+				2EFB35CA160D34440063CE78 /* RSBrightnessSlider.m */,
+				2EFB35CB160D34440063CE78 /* RSColorPickerView.h */,
+				2EFB35CC160D34440063CE78 /* RSColorPickerView.m */,
+			);
+			name = RSColorPicker;
+			sourceTree = "<group>";
+		};
+		2EFB35D0160D344A0063CE78 /* ColorPopover */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB35D1160D34680063CE78 /* ColorButton.h */,
+				2EFB35D2160D34680063CE78 /* ColorButton.m */,
+				2EFB35D3160D34680063CE78 /* ColorViewController.h */,
+				2EFB35D4160D34680063CE78 /* ColorViewController.m */,
+				2EFB35D5160D34680063CE78 /* GzColors.h */,
+				2EFB35D6160D34680063CE78 /* GzColors.m */,
+				2EFB35D7160D34680063CE78 /* Popover */,
+				2EFB35E1160D34680063CE78 /* popoverImages */,
+			);
+			name = ColorPopover;
+			sourceTree = "<group>";
+		};
+		2EFB35D7160D34680063CE78 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB35D8160D34680063CE78 /* UIBarButtonItem+WEPopover.h */,
+				2EFB35D9160D34680063CE78 /* UIBarButtonItem+WEPopover.m */,
+				2EFB35DA160D34680063CE78 /* WEPopoverContainerView.h */,
+				2EFB35DB160D34680063CE78 /* WEPopoverContainerView.m */,
+				2EFB35DC160D34680063CE78 /* WEPopoverController.h */,
+				2EFB35DD160D34680063CE78 /* WEPopoverController.m */,
+				2EFB35DE160D34680063CE78 /* WEPopoverParentView.h */,
+				2EFB35DF160D34680063CE78 /* WETouchableView.h */,
+				2EFB35E0160D34680063CE78 /* WETouchableView.m */,
+			);
+			name = Popover;
+			path = Submodules/ColorPopover/Colors/ColorPopover/Popover;
+			sourceTree = SOURCE_ROOT;
+		};
+		2EFB35E1160D34680063CE78 /* popoverImages */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB35E2160D34680063CE78 /* cache2.png */,
+				2EFB35E3160D34680063CE78 /* popoverArrowDown.png */,
+				2EFB35E4160D34680063CE78 /* popoverArrowDown@2x.png */,
+				2EFB35E5160D34680063CE78 /* popoverArrowDownSimple.png */,
+				2EFB35E6160D34680063CE78 /* popoverArrowLeft.png */,
+				2EFB35E7160D34680063CE78 /* popoverArrowLeft@2x.png */,
+				2EFB35E8160D34680063CE78 /* popoverArrowLeftSimple.png */,
+				2EFB35E9160D34680063CE78 /* popoverArrowRight.png */,
+				2EFB35EA160D34680063CE78 /* popoverArrowRight@2x.png */,
+				2EFB35EB160D34680063CE78 /* popoverArrowRightSimple.png */,
+				2EFB35EC160D34680063CE78 /* popoverArrowUp.png */,
+				2EFB35ED160D34680063CE78 /* popoverArrowUp@2x.png */,
+				2EFB35EE160D34680063CE78 /* popoverArrowUpSimple.png */,
+				2EFB35EF160D34680063CE78 /* popoverBg.png */,
+				2EFB35F0160D34680063CE78 /* popoverBg@2x.png */,
+				2EFB35F1160D34680063CE78 /* popoverBgSimple.png */,
+				2EFB35F2160D34680063CE78 /* README */,
+			);
+			name = popoverImages;
+			path = Submodules/ColorPopover/Colors/ColorPopover/popoverImages;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -154,6 +307,25 @@
 				2EFB35BC160D2E260063CE78 /* Default.png in Resources */,
 				2EFB35BE160D2E260063CE78 /* Default@2x.png in Resources */,
 				2EFB35C0160D2E260063CE78 /* Default-568h@2x.png in Resources */,
+				2EFB35FA160D34680063CE78 /* cache2.png in Resources */,
+				2EFB35FB160D34680063CE78 /* popoverArrowDown.png in Resources */,
+				2EFB35FC160D34680063CE78 /* popoverArrowDown@2x.png in Resources */,
+				2EFB35FD160D34680063CE78 /* popoverArrowDownSimple.png in Resources */,
+				2EFB35FE160D34680063CE78 /* popoverArrowLeft.png in Resources */,
+				2EFB35FF160D34680063CE78 /* popoverArrowLeft@2x.png in Resources */,
+				2EFB3600160D34680063CE78 /* popoverArrowLeftSimple.png in Resources */,
+				2EFB3601160D34680063CE78 /* popoverArrowRight.png in Resources */,
+				2EFB3602160D34680063CE78 /* popoverArrowRight@2x.png in Resources */,
+				2EFB3603160D34680063CE78 /* popoverArrowRightSimple.png in Resources */,
+				2EFB3604160D34680063CE78 /* popoverArrowUp.png in Resources */,
+				2EFB3605160D34680063CE78 /* popoverArrowUp@2x.png in Resources */,
+				2EFB3606160D34680063CE78 /* popoverArrowUpSimple.png in Resources */,
+				2EFB3607160D34680063CE78 /* popoverBg.png in Resources */,
+				2EFB3608160D34680063CE78 /* popoverBg@2x.png in Resources */,
+				2EFB3609160D34680063CE78 /* popoverBgSimple.png in Resources */,
+				2EFB360A160D34680063CE78 /* README in Resources */,
+				2EFB360F160D349F0063CE78 /* RootViewController.xib in Resources */,
+				2EFB3614160D350D0063CE78 /* DPMultiColorPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +338,18 @@
 			files = (
 				2EFB35B6160D2E260063CE78 /* main.m in Sources */,
 				2EFB35BA160D2E260063CE78 /* AppDelegate.m in Sources */,
+				2EFB35CD160D34440063CE78 /* BGRSLoupeLayer.m in Sources */,
+				2EFB35CE160D34440063CE78 /* RSBrightnessSlider.m in Sources */,
+				2EFB35CF160D34440063CE78 /* RSColorPickerView.m in Sources */,
+				2EFB35F3160D34680063CE78 /* ColorButton.m in Sources */,
+				2EFB35F4160D34680063CE78 /* ColorViewController.m in Sources */,
+				2EFB35F5160D34680063CE78 /* GzColors.m in Sources */,
+				2EFB35F6160D34680063CE78 /* UIBarButtonItem+WEPopover.m in Sources */,
+				2EFB35F7160D34680063CE78 /* WEPopoverContainerView.m in Sources */,
+				2EFB35F8160D34680063CE78 /* WEPopoverController.m in Sources */,
+				2EFB35F9160D34680063CE78 /* WETouchableView.m in Sources */,
+				2EFB360E160D349F0063CE78 /* RootViewController.m in Sources */,
+				2EFB3613160D350D0063CE78 /* DPMultiColorPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
