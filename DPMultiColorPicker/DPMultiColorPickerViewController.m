@@ -8,13 +8,22 @@
 
 #import "DPMultiColorPickerViewController.h"
 #import "RSColorPickerView.h"
+#import "RSBrightnessSlider.h"
+#import "ColorViewController.h"
+#import "UIView+RemoveAllSubviews.h"
 
-@interface DPMultiColorPickerViewController ()
+@interface DPMultiColorPickerViewController ()<RSColorPickerViewDelegate,ColorViewControllerDelegate>{
+    ColorViewController *pickerViewController;
+}
+
 @property (weak, nonatomic) IBOutlet UIView *selectionView;
+@property (weak, nonatomic) IBOutlet UIView *selectedColorView;
 
 @end
 
 @implementation DPMultiColorPickerViewController
+@synthesize selectionView;
+@synthesize selectedColorView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,6 +49,7 @@
 
 #pragma mark - Actions
 - (IBAction)selectorChanged:(UISegmentedControl*)sender {
+    [selectionView removeAllSubviews];
     if (sender.selectedSegmentIndex==0) {
         [self loadPaletteView];
     }else if (sender.selectedSegmentIndex==1){
@@ -52,13 +62,42 @@
 #pragma mark RSColorPicker
 
 -(void)loadPickerView{
+    RSColorPickerView *colorPicker = [[RSColorPickerView alloc] initWithFrame:CGRectMake(10.0, 40.0, 300.0, 300.0)];
+	[colorPicker setDelegate:self];
+	[colorPicker setBrightness:1.0];
+	[colorPicker setCropToCircle:NO]; // Defaults to YES (and you can set BG color)
+	[colorPicker setBackgroundColor:[UIColor clearColor]];
+	
+	RSBrightnessSlider *brightnessSlider = [[RSBrightnessSlider alloc] initWithFrame:CGRectMake(10.0, 360.0, 300.0, 30.0)];
+	[brightnessSlider setColorPicker:colorPicker];
+	[brightnessSlider setUseCustomSlider:YES]; // Defaults to NO
+	
+
+    // example of preloading a color
+    // UIColor * aColor = [UIColor colorWithRed:0.803 green:0.4 blue:0.144 alpha:1];
+    // [colorPicker setSelectionColor:aColor];
+    // [brightnessSlider setValue:[colorPicker brightness]];
     
+	[selectionView addSubview:colorPicker];
+	[selectionView addSubview:brightnessSlider];
+}
+
+-(void)colorPickerDidChangeSelection:(RSColorPickerView *)cp{
+    [selectedColorView setBackgroundColor:cp.selectionColor];
 }
 
 #pragma mark ColorPopover (palette)
 
 -(void)loadPaletteView{
     
+    pickerViewController = [[ColorViewController alloc] init];
+    pickerViewController.delegate = self;
+    [selectionView addSubview:pickerViewController.view];
 }
+
+- (void)colorPopoverControllerDidSelectColor:(NSString *)hexColor{
+    [selectedColorView setBackgroundColor:[GzColors colorFromHex:hexColor]];
+}
+
 
 @end
