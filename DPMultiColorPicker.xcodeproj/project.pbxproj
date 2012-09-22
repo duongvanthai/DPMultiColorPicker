@@ -16,9 +16,9 @@
 		2EFB35BC160D2E260063CE78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BB160D2E260063CE78 /* Default.png */; };
 		2EFB35BE160D2E260063CE78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BD160D2E260063CE78 /* Default@2x.png */; };
 		2EFB35C0160D2E260063CE78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB35BF160D2E260063CE78 /* Default-568h@2x.png */; };
-		2EFB35CD160D34440063CE78 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35C8160D34440063CE78 /* BGRSLoupeLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB35CE160D34440063CE78 /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CA160D34440063CE78 /* RSBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB35CF160D34440063CE78 /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CC160D34440063CE78 /* RSColorPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2EFB35CD160D34440063CE78 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35C8160D34440063CE78 /* BGRSLoupeLayer.m */; };
+		2EFB35CE160D34440063CE78 /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CA160D34440063CE78 /* RSBrightnessSlider.m */; };
+		2EFB35CF160D34440063CE78 /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35CC160D34440063CE78 /* RSColorPickerView.m */; };
 		2EFB35F3160D34680063CE78 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D2160D34680063CE78 /* ColorButton.m */; };
 		2EFB35F4160D34680063CE78 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D4160D34680063CE78 /* ColorViewController.m */; };
 		2EFB35F5160D34680063CE78 /* GzColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB35D6160D34680063CE78 /* GzColors.m */; };
@@ -47,17 +47,17 @@
 		2EFB360F160D349F0063CE78 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB360D160D349F0063CE78 /* RootViewController.xib */; };
 		2EFB3613160D350D0063CE78 /* DPMultiColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3611160D350D0063CE78 /* DPMultiColorPickerViewController.m */; };
 		2EFB3614160D350D0063CE78 /* DPMultiColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB3612160D350D0063CE78 /* DPMultiColorPickerViewController.xib */; };
-		2EFB3633160D39F30063CE78 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB361B160D39F30063CE78 /* ANImageBitmapRep.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3634160D39F30063CE78 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB361D160D39F30063CE78 /* BitmapContextRep.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3635160D39F30063CE78 /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3620160D39F30063CE78 /* NSImage+ANImageBitmapRep.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3636160D39F30063CE78 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3622160D39F30063CE78 /* OSCommonImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3637160D39F30063CE78 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3624160D39F30063CE78 /* UIImage+ANImageBitmapRep.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3638160D39F30063CE78 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3627160D39F30063CE78 /* CGContextCreator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB3639160D39F30063CE78 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3629160D39F30063CE78 /* CGImageContainer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB363A160D39F30063CE78 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB362C160D39F30063CE78 /* BitmapContextManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB363B160D39F30063CE78 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB362E160D39F30063CE78 /* BitmapCropManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB363C160D39F30063CE78 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3630160D39F30063CE78 /* BitmapRotationManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2EFB363D160D39F30063CE78 /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3632160D39F30063CE78 /* BitmapScaleManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2EFB3633160D39F30063CE78 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB361B160D39F30063CE78 /* ANImageBitmapRep.m */; };
+		2EFB3634160D39F30063CE78 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB361D160D39F30063CE78 /* BitmapContextRep.m */; };
+		2EFB3635160D39F30063CE78 /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3620160D39F30063CE78 /* NSImage+ANImageBitmapRep.m */; };
+		2EFB3636160D39F30063CE78 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3622160D39F30063CE78 /* OSCommonImage.m */; };
+		2EFB3637160D39F30063CE78 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3624160D39F30063CE78 /* UIImage+ANImageBitmapRep.m */; };
+		2EFB3638160D39F30063CE78 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3627160D39F30063CE78 /* CGContextCreator.m */; };
+		2EFB3639160D39F30063CE78 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3629160D39F30063CE78 /* CGImageContainer.m */; };
+		2EFB363A160D39F30063CE78 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB362C160D39F30063CE78 /* BitmapContextManipulator.m */; };
+		2EFB363B160D39F30063CE78 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB362E160D39F30063CE78 /* BitmapCropManipulator.m */; };
+		2EFB363C160D39F30063CE78 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3630160D39F30063CE78 /* BitmapRotationManipulator.m */; };
+		2EFB363D160D39F30063CE78 /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3632160D39F30063CE78 /* BitmapScaleManipulator.m */; };
 		2EFB363F160D3A750063CE78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB363E160D3A750063CE78 /* QuartzCore.framework */; };
 		2EFB3642160D3C7F0063CE78 /* UIView+RemoveAllSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB3641160D3C7F0063CE78 /* UIView+RemoveAllSubviews.m */; };
 /* End PBXBuildFile section */
@@ -568,6 +568,7 @@
 				2EFB35C5160D2E270063CE78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
