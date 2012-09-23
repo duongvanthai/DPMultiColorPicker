@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DPMultiColorPickerViewController;
+
+@protocol DPMultiColorPickerViewControllerDelegate <NSObject>
+
+@required
+-(void)multiColorPickerViewController:(DPMultiColorPickerViewController*)colorPickerVC didSelectColor:(UIColor*)color;
+
+@end
+
 
 @interface DPMultiColorPickerViewController : UIViewController
 
+@property (nonatomic,strong) UIColor *activeColor;
+@property (nonatomic,weak) id<DPMultiColorPickerViewControllerDelegate> delegate;
 @end

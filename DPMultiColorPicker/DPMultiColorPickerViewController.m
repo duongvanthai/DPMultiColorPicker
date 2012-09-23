@@ -24,6 +24,8 @@
 @implementation DPMultiColorPickerViewController
 @synthesize selectionView;
 @synthesize selectedColorView;
+@synthesize delegate;
+@synthesize activeColor;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,7 +39,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    activeColor=[UIColor blueColor];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -62,7 +64,9 @@
 #pragma mark RSColorPicker
 
 -(void)loadPickerView{
+    UIColor *tempColor=activeColor;
     RSColorPickerView *colorPicker = [[RSColorPickerView alloc] initWithFrame:CGRectMake(10.0, 40.0, 300.0, 300.0)];
+
 	[colorPicker setDelegate:self];
 	[colorPicker setBrightness:1.0];
 	[colorPicker setCropToCircle:NO]; // Defaults to YES (and you can set BG color)
@@ -75,15 +79,16 @@
 
     // example of preloading a color
     // UIColor * aColor = [UIColor colorWithRed:0.803 green:0.4 blue:0.144 alpha:1];
-    // [colorPicker setSelectionColor:aColor];
-    // [brightnessSlider setValue:[colorPicker brightness]];
+    activeColor=tempColor;
+    [colorPicker setSelectionColor:activeColor];
+    [brightnessSlider setValue:[colorPicker brightness]];
     
 	[selectionView addSubview:colorPicker];
 	[selectionView addSubview:brightnessSlider];
 }
 
 -(void)colorPickerDidChangeSelection:(RSColorPickerView *)cp{
-    [selectedColorView setBackgroundColor:cp.selectionColor];
+    [self didSelectColor:cp.selectionColor];
 }
 
 #pragma mark ColorPopover (palette)
@@ -92,12 +97,20 @@
     
     pickerViewController = [[ColorViewController alloc] init];
     pickerViewController.delegate = self;
+    
     [selectionView addSubview:pickerViewController.view];
 }
 
 - (void)colorPopoverControllerDidSelectColor:(NSString *)hexColor{
-    [selectedColorView setBackgroundColor:[GzColors colorFromHex:hexColor]];
+    [self didSelectColor:[GzColors colorFromHex:hexColor]];
 }
 
+#pragma mark - Color Selected
+
+-(void)didSelectColor:(UIColor*)color{
+    activeColor=color;
+    [selectedColorView setBackgroundColor:color];
+    [delegate multiColorPickerViewController:self didSelectColor:color];
+}
 
 @end
